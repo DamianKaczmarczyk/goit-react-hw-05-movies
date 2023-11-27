@@ -9,7 +9,6 @@ import { useGetFilm } from './hooks/useGetFilm';
 // import Cast from './cast/Cast';
 // import Reviews from './reviews/Reviews';
 
-
 const Movies = lazy(() => import('./movies/Movies'));
 const SingleFilm = lazy(() => import('./singleFilm/SingleFilm'));
 const Cast = lazy(() => import('./cast/Cast'));
