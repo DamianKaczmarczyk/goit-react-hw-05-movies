@@ -5,8 +5,6 @@ single movie.
 
 # Live:
 
-link:
-
 # screen:
 
 ![Alt text](./public/filmoteka.png 'Optional Title')
