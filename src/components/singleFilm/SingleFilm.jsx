@@ -1,12 +1,10 @@
 import {
   Outlet,
   useNavigate,
-  useParams,
   Link,
   useLocation,
 } from 'react-router-dom';
-import axios from 'axios';
-import { useEffect, useState } from 'react';
+
 import { useGetSingleFilm } from 'components/hooks/useGetSingleFilm';
   
   export default function SingleFilm() {

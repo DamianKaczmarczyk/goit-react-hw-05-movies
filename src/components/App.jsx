@@ -1,13 +1,10 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-// import axios from 'axios';
 import { lazy } from 'react';
 import Navigation from './navigation/Navigation';
 import Home from './home/Home';
-// import Movies from './movies/Movies';
-// import SingleFilm from './singleFilm/SingleFilm';
+
 import { useGetFilm } from './hooks/useGetFilm';
-// import Cast from './cast/Cast';
-// import Reviews from './reviews/Reviews';
+
 
 const Movies = lazy(() => import('./movies/Movies'));
 const SingleFilm = lazy(() => import('./singleFilm/SingleFilm'));
