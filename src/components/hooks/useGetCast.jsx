@@ -4,7 +4,7 @@ import axios from 'axios';
 
 export const useGetCast = () => {
   const { id } = useParams();
-  // const URLCast = `https://api.themoviedb.org/3/movie/${id}/credits`;
+  const URLCast = `https://api.themoviedb.org/3/movie/${id}/credits`;
 
   const [arrayCast, setArrayCast] = useState([]);
   const [error, setError] = useState('');
